@@ -2,16 +2,15 @@
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.button {
+.project-button {
   margin-bottom: 50px;
   display: flex;
   justify-content: center;
-  &:not(:last-child) {
-    margin-right: 8px;
-  }
 }
-
-.button__filter {
+.project-button__item:not(last-child) {
+  margin-right: 8px;
+}
+.project-button__filter {
   background: #f5f4fa;
   color: var(--title-color);
   font-family: "Roboto";
